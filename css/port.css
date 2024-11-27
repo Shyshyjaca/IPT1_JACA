@@ -114,7 +114,7 @@ nav a.active{
 section{
     min-height: 100vh;
     padding: 5rem 9% 5rem;
-    background-image: url('/img/download.jpg');
+    background-image: url('download.jpg');
     background-repeat: no-repeat;
     background-size: 100vw 150vh;
 }
