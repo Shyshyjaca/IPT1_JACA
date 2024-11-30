@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Font Size </title>
+</head>
+<body>
+	<button onclick="increaseSize()">+plus</button>
+	<button onclick="decreaseSize()">-maynos</button>
+	<p id="text">yyyhhsss</p>
+
+	<script>
+	let fontSize = 16;
+	
+	function increaseSize() {
+	fontSize += 2;
+	document.getElementById("text").style.fontSize = fontSize + "px";
+	}
+	
+	function decreaseSize() {
+	fontSize -= 2;
+	document.getElementById("text").style.fontSize = fontSize + "px";
+	}
+	</script>
+</body>
+</html>
